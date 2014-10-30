@@ -58,7 +58,7 @@ nav ul li {
 	margin-left: 2%;
 	float: left;
 	border: 1px solid #878E63;
-	width: 20%;
+	width: 20%;	
 }
 
 nav ul li a {
@@ -67,41 +67,18 @@ nav ul li a {
 	font-weight: bold;
 	font-size: 18px;
 	color: #878E63;
+	padding: 5%;
 	text-align: center;
+	text-decoration: none;
 }
 
 nav ul li a:hover, nav ul li.active a {
 	background-color: #878E63;
 	color: #F1F0D1;
 }
-/*
-    nav{
-        border:1px solid #ccc;
-        border-width:1px 0;
-     
-        margin:0;
-        padding:0;
-        text-align:center;
-    }
-    nav li{
-        display:inline;
-        float: left;
-    }
-    nav a{
-        padding:10px;
-    } */
 main {
 	width: 55%;
-
-	/* 	margin: -2% 1% 1% 1%; */
 }
-
-/* .section { */
-/* 	width: 29%; */
-/* 	float: left; */
-/* 	margin: 2% 2%; */
-/* 	text-align: center; */
-/* } */
 footer {
 	background: #8b6914;
 	width: 100%;
@@ -131,15 +108,11 @@ footer p a {
 		margin-bottom: 10%;
 	}
 	nav ul {
-/* 		list-style: none; */
-/* 		margin: 0 auto; */
 		padding: 0px;
 		width: 100%;
 	}
 	nav ul li {
 		text-align: center;
-/* 		margin-left: 0 auto; */
-		padding: 0px;
 		margin: 0px;
 		width: 100%;
 		border-top: 1px solid #878E63;
@@ -148,14 +121,9 @@ footer p a {
 		border-left: 0px solid #878E63;
 	}
 	nav ul li a {
-/* 		padding: 8px 0; */
-		font-size: 16px;
+ 		font-size: 16px;
 	}
 	.left-col {
 		width: 100%;
 	}
-/* 	.section { */
-/* 		float: left; */
-/* 		width: 100%; */
-/* 	} */
 }
