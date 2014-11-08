@@ -1,6 +1,6 @@
+/*http://adobe.ly/1xCZ6f7 Colors !!!*/
+
 body {
-	background-image: url('images/bg.png');
-	background-repeat: repeat;
 	font: DejaVu Sans;
 	font-size: 18px;
 	overflow: auto;
@@ -8,7 +8,6 @@ body {
 
 h1, h2, h3 {
 	text-align: center;
-	padding-left: 5%;
 	color: #878E63;
 }
 
@@ -25,24 +24,23 @@ img {
 	width: auto;
 }
 
-#wrapper {
+#container {
 	margin: 0 auto;
 	max-width: 1020px;
 	width: 100%;
-	background: #FFF;
 	border: 1px solid #878E63;
-	border-radius: 2px;
-	/*  box-shadow: 0 0 10px 0 rgba(12, 3, 25, 0.8);*/
+	border-radius: 2px;	
 }
 
 header {
-	width: 100%;
-	min-height: 125px;
-	padding: 5px;
+	height: 150px;
+}
+
+header h1 {
+	padding-top: 5%;
 }
 
 nav {
-	width: 100%;
 	text-align: center;
 }
 
@@ -77,11 +75,13 @@ nav ul li a:hover, nav ul li.active a {
 	color: #F1F0D1;
 }
 main {
-	width: 55%;
+	max-width: 80%;
+	text-align: center;
+	margin:0;	
+	padding-left: 10%;	
 }
 footer {
-	background: #8b6914;
-	width: 100%;
+	background: #F1F0D1;	
 	overflow: hidden;
 }
 
@@ -95,14 +95,29 @@ footer p a {
 	text-decoration: none;
 }
 
-/*------------MEDIA -----------------*/
-@media screen and (max-width: 478px) {
+/*------------Mobile Start -----------------*/
+@media screen and (max-width: 480px) {
 	body {
 		font-size: 13px;
+		margin: 0px;		
 	}
+
+	#container{
+		margin: 0;
+		border: none;
+	}
+	
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 760px) {
+	header{
+		height: auto;
+	}
+
+	header h1 {
+		padding-top: auto;
+	}
+
 	nav {
 		width: 100%;
 		margin-bottom: 10%;
@@ -123,7 +138,7 @@ footer p a {
 	nav ul li a {
  		font-size: 16px;
 	}
-	.left-col {
+	main {
 		width: 100%;
 	}
 }
