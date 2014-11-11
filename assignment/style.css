@@ -1,20 +1,19 @@
-/*http://adobe.ly/1xCZ6f7 Colors !!!*/
-
 body {
 	font: DejaVu Sans;
 	font-size: 18px;
-	overflow: auto;
 }
 
 h1, h2, h3 {
 	text-align: center;
-	color: 4F7F57;
+	color: #4F7F57;
 }
 
 p {
 	padding: 2%;
-	color: 4F7F57;
+	color: #4F7F57;
 }
+
+a:visited {color:#4F7F57;}
 
 img {
 	text-align: center;
@@ -27,9 +26,9 @@ img {
 	margin: 0 auto;
 	max-width: 1020px;
 	width: 100%;
-	border: 1px solid 4F7F57;
+	border: 1px solid #4F7F57;
 	border-radius: 2px;	
-	background-color: D6E8D9;
+	background-color: #D6E8D9;
 }
 
 header{
@@ -51,7 +50,7 @@ nav ul li {
 	margin-right: 2%;
 	margin-left: 2%;
 	float: left;
-	border: 1px solid 4F7F57;
+	border: 1px solid #4F7F57;
 	width: 20%;	
 }
 
@@ -60,14 +59,14 @@ nav ul li a {
 	display: block;
 	font-weight: bold;
 	font-size: 18px;
-	color: 4F7F57;
+	color: #4F7F57;
 	padding: 5%;
 	text-align: center;
 	text-decoration: none;
 }
 
 nav ul li a:hover, nav ul li.active a {
-	background-color: 4F7F57;
+	background-color: #4F7F57;
 	color: #F1F0D1;
 }
 main {
@@ -75,6 +74,7 @@ main {
 	text-align: center;
 	margin:0;	
 	padding-left: 10%;	
+	margin-bottom: 10%;
 	
 }
 
@@ -85,18 +85,11 @@ main {
 
 footer {
 	background: #F1F0D1;	
-	overflow: hidden;
+	min-height: 50px;
+	padding-top: 20px;	
+	text-align: center;
 }
 
-footer p, footer h3 {
-	color: #F1F0D1;
-	text-decoration: none;
-}
-
-footer p a {
-	color: #F1F0D1;
-	text-decoration: none;
-}
 
 table{
 	text-align: left;
@@ -137,10 +130,12 @@ table{
 		text-align: center;
 		margin: 0px;
 		width: 100%;
-		border-top: 1px solid 4F7F57;
-		border-right: 0px solid 4F7F57;
-		border-bottom: 1px solid 4F7F57;
-		border-left: 0px solid 4F7F57;
+
+		border-style: solid;
+    	border-color: #4F7F57;
+		
+		border: 10px;
+
 	}
 	nav ul li a {
  		font-size: 16px;
