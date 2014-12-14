@@ -85,6 +85,12 @@ main {
 	margin-left: 30%;
 }
 
+#phones{
+	padding: 0px;
+	text-align: center;
+	list-style-type: none;
+}
+
 footer {
 	background: #F1F0D1;
 	min-height: 50px;
